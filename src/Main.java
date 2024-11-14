@@ -36,7 +36,7 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
-        Biodata mydata=new Biodata(name:"wonho",hobby:"badminton",age:25);
+        Biodata mydata=new Biodata("wonho","badminton",25);
         mydata.Annyeong();
         System.out.println(mydata.hobby);
         System.out.println(mydata.age);
